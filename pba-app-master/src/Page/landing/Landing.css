@@ -1,0 +1,164 @@
+@font-face {
+    font-family: myFontBold;
+    src: url(../../assets/font/SF-Pro-Display-Bold.otf);
+}
+
+@font-face {
+    font-family: myFontThin;
+    src: url(../../assets/font/SF-Pro-Display-Thin.otf);
+}
+
+.Landing {
+    min-width: 414px;
+    min-height: 90vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.Back-Land {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.Back-Video {
+    position: absolute;
+    z-index: 0;
+}
+
+.Back-Color {
+    position: absolute;
+    z-index: 1;
+}
+
+.Text-Land {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    height: 195px;
+    padding: 0 45px;
+    position: absolute;
+    z-index: 3;
+    bottom: 145px;
+}
+
+.Text-Lend-button button {
+    width: 124px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    background: #2560E3;
+    color: white;
+    font-family: myFontBold;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.Text-Land-Text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Text-Land-Text h3 {
+    font-size: 40px;
+    color: white;
+    font-family: myFontBold;
+}
+
+.Text-Land-Text p {
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #fafaffa1;
+    font-family: myFontThin;
+}
+
+.Button-Land {
+    min-width: 100%;
+    height: 115px;
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    bottom: 0;
+}
+
+.Button-Land a {
+    text-decoration: none;
+}
+
+.Green-Box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px 70px 0px 0px;
+    background-color: #3DDC97;
+    -webkit-box-shadow: 0px 0px 6px 6px #3ddc97ce;
+    -moz-box-shadow: 0px 0px 6px 6px #3ddc97c5;
+    box-shadow: 0px 0px 6px 6px #3ddc97c5;
+}
+
+.Green-Box h3 {
+    font-size: 30px;
+    color: black;
+    font-family: myFontBold;
+}
+
+.Green-Box p {
+    font-size: 18px;
+    color: black;
+    font-family: myFontThin;
+}
+
+@media (max-width:768px) {
+    .Landing {
+        min-width: 100vw;
+        height: auto;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        position: relative;
+    }
+
+    .Back-Video {
+        width: 100%;
+    }
+
+    .Back-Video video {
+        width: 100%;
+    }
+
+    .Back-Color {
+        width: 100%;
+    }
+
+    .Back-Color img {
+        width: 100%;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    /* Safari */
+    .Landing {
+        height: auto; /* Используйте высоту экрана без скролла */
+    }
+    
+}
+
+@media screen and (max-device-width: 1024px) and (orientation: portrait) {
+    /* Дополнительные стили для устройств с максимальной шириной 1024px в портретной ориентации */
+    .Landing {
+        height: auto; /* Используйте высоту экрана без скролла */
+    }
+}

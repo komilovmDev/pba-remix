@@ -1,0 +1,351 @@
+.Result-Box {
+    min-width: 414px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.Result {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rAnim {
+    animation: resaultAnim 0.5s ease-in;
+}
+
+@keyframes resaultAnim {
+    0% {
+        transform: translateY(0px);
+    }100% {
+        transform: translateY(-120px);
+    }
+}
+
+.rAnim__R {
+    animation: resaultAnim__r 0.5s ease-in;
+}
+
+@keyframes resaultAnim__r {
+    0% {
+        transform: translateY(-120px);
+    }100% {
+        transform: translateY(0);
+    }
+}
+
+.Result-title {
+    margin: 60px 84px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.Result-title p {
+    color: #C2E812;
+    font-weight: 800;
+}
+
+.Results-Box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20.5px;
+    width: 100%;
+    padding: 0 32.25px;
+}
+
+.Results-Card {
+    width: 163.5px;
+    height: 307.93px;
+    border: 5px solid #C2E812;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.Save-button {
+    width: 304px;
+    height: 65px;
+    border-radius: 50px;
+    background-color: #3DDC97;
+    color: white;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    box-shadow: #3DDC97 0 0 20px;
+    position: fixed;
+    bottom: 95px;
+    z-index: 1;
+}
+
+.More-Avatars-Box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 80px 53px;
+    margin-bottom: 270px;
+}
+
+.More-Avatars {
+    width: 307.5px;
+    height: 193.3px;
+    background: rgb(75, 74, 74);
+    position: absolute;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+}
+
+.More-Avatars-Text {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+
+.More-Avatars-Text p {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.More-Avatars-Text h4 {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.More-Avatars-Two {
+    width: 270px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: #3DDC97;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    box-shadow: #3DDC97 0 0 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.Menu {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    /* Start from the bottom */
+    left: 0;
+    background: black;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: bottom 0.5s ease;
+    /* Added animation for smooth transition */
+    animation: menuAnimation 0.5s ease-in;
+    transition: transform 0.5s;
+}
+
+.Menu2 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    /* Start from the bottom */
+    left: 0;
+    background: black;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: bottom 0.5s ease;
+    /* Added animation for smooth transition */
+    animation: menuAnimation2 0.8s ease-in;
+    transition: transform .5s;
+}
+
+.Menu_anim {
+    animation: menuAnimation 0.3s ease-in;
+}
+
+@keyframes menuAnimation {
+    0%{
+        transform: translateY(999px);
+    }100% {
+        transform: translateY(0px);
+    }
+}
+
+
+.Menu_anim2 {
+    animation: menuAnimation2 0.3s ease-in;
+}
+
+@keyframes menuAnimation2 {
+    0%{
+        transform: translateX(999px);
+    }100% {
+        transform: translateY(0px);
+    }
+}
+
+
+.Menu-Open {
+    top: 0;
+    /* Bring the menu up */
+}
+
+.Close-button {
+    position: absolute;
+    top: 41px;
+    left: 36px;
+    background: none;
+    outline: none;
+    border: none;
+    color: #fafaff59;
+    font-size: 18px;
+}
+
+.Added-Box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.Added {
+    width: 246px;
+    height: 108px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.Added-p-one {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #C2E812;
+    font-weight: 800;
+}
+
+.Added-p-two {
+    font-size: 25px;
+    font-weight: 100;
+    font-family: myFontThin;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+.Share-Box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Share-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.Share-p-one {
+    font-size: 28px;
+    font-family: myFontBold;
+    font-weight: 800;
+    color: #C2E812;
+}
+
+.Share-p-two {
+    width: 60%;
+    font-size: 24px;
+    font-family: myFontThin;
+    font-weight: 100;
+    color: #fafafacc;
+    text-align: center;
+    letter-spacing: 0px;
+    padding: 0;
+    margin: 0;
+}
+
+.ShareBtns {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.ShareBtns .blurBtn::after {
+    content: "Link copied";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 234px;
+    height: 65px;
+    border-radius: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #78b3a3;
+    animation: btnAnim .3s ease-in;
+}
+
+@keyframes btnAnim {
+    0% {
+        opacity: 0;
+    }100%{
+        opacity: 1;
+    }
+}
+
+
+.ShareBtns button {
+    position: relative;
+    width: 234px;
+    height: 65px;
+    border-radius: 65px;
+    font-size: 28px;
+    font-weight: 700;
+    background-color: #3DDC97;
+    color: #fafafa;
+    border: none;
+    box-shadow: 0px 0px 15px 2px #3DDC97;
+}
+
+.ShareFooter {
+    padding-top: 30px;
+    width: 60%;
+}
+
+.ShareFooter p {
+    font-size: 17px;
+    text-align: center;
+    color: #b8b8b8;
+    letter-spacing: 0.6px;
+    font-family: myFontThin;
+}

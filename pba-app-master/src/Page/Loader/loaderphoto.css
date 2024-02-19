@@ -1,0 +1,71 @@
+.loder {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 99;
+    animation: loaderAnim 0.3s ease-in;
+}
+
+@keyframes loaderAnim {
+    0% {
+        opacity: 0;
+    }100% {
+        opacity: 1;
+    }
+}
+
+.choseA1 {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.403);
+    backdrop-filter: blur(25px);
+}
+
+.topNumbersA1 {
+    transform: translateY(-80px);
+}
+
+.loaderMain {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loaderMain__gifTexts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: -140px;
+}
+
+.loaderMain__gifTexts img {
+    width: 268px;
+}
+
+.loaderMain__gifTexts1 {
+    width: 60%;
+    color: #dcdcdc;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    font-family: myFontBold;
+}
+
+.loaderMain__gifTexts2 {
+    width: 70%;
+    font-size: 22px;
+    color: #acacac;
+    margin-top: 45px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    font-family: myFontThin;
+}
