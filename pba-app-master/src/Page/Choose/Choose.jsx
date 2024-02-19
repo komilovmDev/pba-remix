@@ -1,6 +1,6 @@
 import './chose.css';
 import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Famale1 from "./../../assets/img/pics for circles/1-female.png";
 import Famale2 from "./../../assets/img/pics for circles/2-female.png";
 import Famale3 from "./../../assets/img/pics for circles/3-female.png";
@@ -70,13 +70,17 @@ export default function Chose({ LoaderPageTimeout }) {
                     <div className="choseImgBtn">
                         <button>
                             <div className="img">
-                                <img src={btnPhoto1} alt="" />
+                                <Link to={'/image'}>
+                                    <img src={btnPhoto1} alt="" />
+                                </Link>
                             </div>
                             <h3>Images</h3>
                         </button>
                         <button>
                             <div className="img">
-                                <img src={btnGif} alt="" />
+                                <Link to={'/image'}>
+                                    <img src={btnGif} alt="" />
+                                </Link>
                             </div>
                             <h3>Videos</h3>
                         </button>
