@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './image.css'
 
 export default function Images() {
@@ -15,75 +16,99 @@ export default function Images() {
                 </div>
                 <div className="imgBoxes">
                     <div className="imgBox">
-                        <div className="img">
-                            <img src="" alt="" />
-                        </div>
+                        <Link to={'/uplodeface'}>
+                            <div className="img">
+                                <img src="" alt="" />
+                            </div>
+                        </Link>
                         <h3>Title</h3>
                     </div>
                     <div className="imgBox">
-                        <div className="img">
-                            <img src="" alt="" />
-                        </div>
+                        <Link to={'/uplodeface'}>
+                            <div className="img">
+                                <img src="" alt="" />
+                            </div>
+                        </Link>
                         <h3>Title</h3>
                     </div>
                     <div className="imgBox">
-                        <div className="img">
-                            <img src="" alt="" />
-                        </div>
+                        <Link to={'/uplodeface'}>
+                            <div className="img">
+                                <img src="" alt="" />
+                            </div>
+                        </Link>
                         <h3>Title</h3>
                     </div>
                     <div className="imgBox">
-                        <div className="img">
-                            <img src="" alt="" />
-                        </div>
+                        <Link to={'/uplodeface'}>
+                            <div className="img">
+                                <img src="" alt="" />
+                            </div>
+                        </Link>
                         <h3>Title</h3>
                     </div>
                     <div className="imgBox">
-                        <div className="img">
-                            <img src="" alt="" />
-                        </div>
+                        <Link to={'/uplodeface'}>
+                            <div className="img">
+                                <img src="" alt="" />
+                            </div>
+                        </Link>
                         <h3>Title</h3>
                     </div>
                     <div className="imgBox">
-                        <div className="img">
-                            <img src="" alt="" />
-                        </div>
+                        <Link to={'/uplodeface'}>
+                            <div className="img">
+                                <img src="" alt="" />
+                            </div>
+                        </Link>
                         <h3>Title</h3>
                     </div>
                     <div className="imgBox">
-                        <div className="img">
-                            <img src="" alt="" />
-                        </div>
+                        <Link to={'/uplodeface'}>
+                            <div className="img">
+                                <img src="" alt="" />
+                            </div>
+                        </Link>
                         <h3>Title</h3>
                     </div>
                     <div className="imgBox">
-                        <div className="img">
-                            <img src="" alt="" />
-                        </div>
+                        <Link to={'/uplodeface'}>
+                            <div className="img">
+                                <img src="" alt="" />
+                            </div>
+                        </Link>
                         <h3>Title</h3>
                     </div>
                     <div className="imgBox">
-                        <div className="img">
-                            <img src="" alt="" />
-                        </div>
+                        <Link to={'/uplodeface'}>
+                            <div className="img">
+                                <img src="" alt="" />
+                            </div>
+                        </Link>
                         <h3>Title</h3>
                     </div>
                     <div className="imgBox">
-                        <div className="img">
-                            <img src="" alt="" />
-                        </div>
+                        <Link to={'/uplodeface'}>
+                            <div className="img">
+                                <img src="" alt="" />
+                            </div>
+                        </Link>
                         <h3>Title</h3>
                     </div>
                     <div className="imgBox">
-                        <div className="img">
-                            <img src="" alt="" />
-                        </div>
+                        <Link to={'/uplodeface'}>
+                            <div className="img">
+                                <img src="" alt="" />
+                            </div>
+                        </Link>
                         <h3>Title</h3>
                     </div>
                     <div className="imgBox">
-                        <div className="img">
-                            <img src="" alt="" />
-                        </div>
+                        <Link to={'/uplodeface'}>
+                            <div className="img">
+                                <img src="" alt="" />
+                            </div>
+                        </Link>
                         <h3>Title</h3>
                     </div>
                 </div>

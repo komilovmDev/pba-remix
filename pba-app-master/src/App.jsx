@@ -47,7 +47,7 @@ function App() {
           <Route path='/image' element={<Images />} />
           {/* <Route path='/Chose/Famale' element={<ChoseFamale />} /> */}
           <Route path='/Results' element={<Result endPageTimeout={endPageTimeout}/>} />
-          <Route path='/uplodeface' element={<UplodeFace />} />
+          <Route path='/uplodeface' element={<UplodeFace LoaderPageTimeout={LoaderPageTimeout}/>} />
         </Routes>
       </div>
     </>

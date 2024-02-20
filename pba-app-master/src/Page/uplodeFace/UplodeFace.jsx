@@ -4,12 +4,16 @@ import './uplodeface.css'
 import Goodmale from "./../../assets/img/BadGood/good-male.png";
 import BadFamale from "./../../assets/img/BadGood/bad-female.png";
 import { FaAngleLeft } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
-export default function UplodeFace() {
+export default function UplodeFace({ LoaderPageTimeout }) {
+
+
     return (
         <>
             <div className="chose choseUplodeFace">
-                <button className='goBack'><FaAngleLeft />Go back</button>
+                <Link style={{ textDecoration: "none" }} to={'/image'}><button className='goBack'><FaAngleLeft />Go back</button></Link>
                 <div className={"topNumbers"}>
                     <div className="topNumbers_1 yellow">1</div>
                     <div className="topNumbers_1 yellow">2</div>
@@ -30,7 +34,7 @@ export default function UplodeFace() {
                             </div>
                         </div>
                     </div>
-                    <button style={{color: "white"}} className='choseFamaleTopBtn choseFamale__main'>Upload Face</button>
+                    <button onClick={LoaderPageTimeout} style={{ color: "white" }} className='choseFamaleTopBtn choseFamale__main'>Upload Face</button>
                 </div>
             </div>
         </>
