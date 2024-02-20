@@ -9,6 +9,7 @@ import Result from './Page/Results/Results';
 import End from './Page/EndPage/End';
 import LoaderPhoto from './Page/Loader/LoaderPhoto';
 import Images from './Page/images/Images';
+import UplodeFace from './Page/uplodeFace/UplodeFace';
 
 function App() {
 
@@ -46,6 +47,7 @@ function App() {
           <Route path='/image' element={<Images />} />
           {/* <Route path='/Chose/Famale' element={<ChoseFamale />} /> */}
           <Route path='/Results' element={<Result endPageTimeout={endPageTimeout}/>} />
+          <Route path='/uplodeface' element={<UplodeFace />} />
         </Routes>
       </div>
     </>
