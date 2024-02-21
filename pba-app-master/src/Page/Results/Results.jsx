@@ -19,6 +19,7 @@ export default function Result({ endPageTimeout }) {
         }
         setTimeout(() => {
             setMenuOpen(false);
+            
         }, 500)
     };
 
