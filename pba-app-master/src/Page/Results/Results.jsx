@@ -19,7 +19,6 @@ export default function Result({ endPageTimeout }) {
         }
         setTimeout(() => {
             setMenuOpen(false);
-            
         }, 500)
     };
 
@@ -43,7 +42,7 @@ export default function Result({ endPageTimeout }) {
     const [btnStatus, setBtnStatus] = useState(false)
     function handleClick() {
         setBtnStatus(prevStatus => {
-            // Toggle the previous status
+            // Toggle the previous status .
             return !prevStatus;
         });
 
