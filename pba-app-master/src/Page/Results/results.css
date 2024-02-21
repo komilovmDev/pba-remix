@@ -8,6 +8,7 @@
 }
 
 .Result {
+    padding-top: 20vw;
     width: 100%;
     height: 100%;
     display: flex;
@@ -69,6 +70,9 @@
     color: #C2E812;
     font-weight: 800;
 }
+.Result-title p span{
+    color:white;
+}
 
 .Results-Box {
     display: flex;
@@ -101,7 +105,7 @@
     border: none;
     box-shadow: #3DDC97 0 0 20px;
     position: fixed;
-    bottom: 95px;
+    bottom: 150px;
     z-index: 1;
 }
 
@@ -110,24 +114,25 @@
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
-    margin: 80px 53px;
-    margin-bottom: 270px;
+    justify-content: center;  
+    margin-bottom: 200px;
 }
 
 .More-Avatars {
     width: 307.5px;
-    height: 193.3px;
+    height: 210px;
     background: rgb(75, 74, 74);
     position: absolute;
-    border-radius: 50px;
+    border-radius: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10vw;
     z-index: 2;
 }
 
 .More-Avatars-Text {
+    padding-top: 23vw;
     width: 100%;
     height: 40%;
     display: flex;
@@ -148,16 +153,16 @@
 }
 
 .More-Avatars-Two {
-    width: 270px;
+    width: 251px;
     height: 60px;
-    border-radius: 50px;
+    border-radius: 29px;
     border: none;
     outline: none;
     background-color: #3DDC97;
     color: white;
     position: absolute;
-    bottom: 20px;
-    box-shadow: #3DDC97 0 0 20px;
+    bottom: 25px;
+    box-shadow: 0px 0px 25px #3DDC97;
     font-size: 30px;
     font-weight: 600;
 }
@@ -165,8 +170,8 @@
 .Menu {
     width: 100%;
     height: 100vh;
-    position: fixed;
-    /* Start from the bottom */
+    position: fixed; 
+    top: 0;
     left: 0;
     background: black;
     z-index: 3;
@@ -175,8 +180,7 @@
     align-items: center;
     justify-content: center;
     color: white;
-    transition: bottom 0.5s ease;
-    /* Added animation for smooth transition */
+    transition: bottom 0.5s ease; 
     animation: menuAnimation 0.5s ease-in;
     transition: transform 0.5s;
 }
@@ -184,8 +188,8 @@
 .Menu2 {
     width: 100%;
     height: 100vh;
-    position: fixed;
-    /* Start from the bottom */
+    position: fixed; 
+    top: 0;
     left: 0;
     background: black;
     z-index: 3;
@@ -194,8 +198,7 @@
     align-items: center;
     justify-content: center;
     color: white;
-    transition: bottom 0.5s ease;
-    /* Added animation for smooth transition */
+    transition: bottom 0.5s ease; 
     animation: menuAnimation2 0.8s ease-in;
     transition: transform .5s;
 }

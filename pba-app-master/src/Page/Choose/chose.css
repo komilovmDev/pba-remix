@@ -50,7 +50,8 @@
 .chose .topNumbers .topNumbers_1 {
     width: 60px;
     height: 60px;
-    background-color: #9d9ea2;
+    background-color: white;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,7 +71,7 @@
     position: absolute;
     width: 40px;
     height: 10px;
-    background-color: #9d9ea2;
+    background-color: #fff;
     transform: translateX(47px);
 }
 
@@ -89,7 +90,7 @@
     position: absolute;
     width: 40px;
     height: 10px;
-    background-color: #9d9ea2;
+    background-color: white;
     transform: translateX(47px);
 }
 

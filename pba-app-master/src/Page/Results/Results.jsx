@@ -61,7 +61,7 @@ export default function Result({ endPageTimeout }) {
             <div className="Result">
                 <Link style={{textDecoration: "none"}} to={'/image'}><button className={btnclass1}><FaAngleLeft />Create more</button></Link>
                 <div className={btnClass}>
-                    <p>Here's the result!</p>
+                    <p> <span>Here's the</span> result!</p>
                 </div>
                 <div className={mainlass}>
                     <div className="Results-Card">
@@ -80,17 +80,16 @@ export default function Result({ endPageTimeout }) {
                         </button>
                         <div className="Added-Box">
                             <div className="Added">
-                                <p className="Added-p-one">Added!</p>
-                                <p className="Added-p-two">Don't forget to share them with your friends</p>
+                                <p className="Added-p-one">Shared!</p> 
                             </div>
                             <div className="More-Avatars-Box">
                                 <div className="More-Avatars">
                                     <div className="More-Avatars-Text">
-                                        <p>Want more avatars?</p>
+                                        <p>Want more face swaps?</p>
                                         <h4>Free as always.</h4>
                                     </div>
                                     <button className="More-Avatars-Two" onClick={toggleAddedMenu}>
-                                        More avatars!
+                                        More swaps!
                                     </button>
                                 </div>
                             </div>

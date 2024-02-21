@@ -82,30 +82,34 @@
 }
 
 .Button-Land {
-    min-width: 100%;
-    height: 115px;
+    width: 100%;
+    height: 116px;
     position: absolute;
     z-index: 3;
+    display: flex;
+    justify-content: center;
     left: 0;
     bottom: 0;
 }
 
 .Button-Land a {
+    position: relative;
     text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .Green-Box {
-    width: 100%;
+    width: 94%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 70px 70px 0px 0px;
+    border-radius: 40px 40px 0px 0px;
     background-color: #3DDC97;
-    -webkit-box-shadow: 0px 0px 6px 6px #3ddc97ce;
-    -moz-box-shadow: 0px 0px 6px 6px #3ddc97c5;
-    box-shadow: 0px 0px 6px 6px #3ddc97c5;
+    box-shadow: 0px -5px 10px #3DDC97;
 }
 
 .Green-Box h3 {
@@ -118,6 +122,30 @@
     font-size: 18px;
     color: black;
     font-family: myFontThin;
+}
+
+.left {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 30px 15px;
+    border-color: transparent transparent #3DDC97 transparent;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-bottom-left-radius: 6px; 
+}
+
+.Right {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 30px 15px;
+    border-color: transparent transparent #3DDC97 transparent;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-bottom-right-radius: 6px;  
 }
 
 @media (max-width:768px) {

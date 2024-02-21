@@ -39,10 +39,12 @@ export default function Landing() {
             </div>
             <div className="Button-Land">
                 <Link to={'/chose'}>
+                    <span className='left'></span>
                     <div className="Green-Box">
                         <h3>Create for free</h3>
                         <p>No sign up. No credit card.</p>
                     </div>
+                    <span className='Right'></span>
                 </Link>
             </div>
         </div >
